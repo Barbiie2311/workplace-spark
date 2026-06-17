@@ -83,6 +83,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         content:
           "AI-powered workplace productivity suite: email drafting, meeting summaries, task planning, research briefings, and a chatbot copilot.",
       },
+      { property: "og:title", content: "Workplace AI — Productivity Assistant" },
+      { name: "twitter:title", content: "Workplace AI — Productivity Assistant" },
+      { name: "description", content: "AI Workplace Productivity Assistant automates routine tasks and enhances professional workflows with AI-powered tools." },
+      { property: "og:description", content: "AI Workplace Productivity Assistant automates routine tasks and enhances professional workflows with AI-powered tools." },
+      { name: "twitter:description", content: "AI Workplace Productivity Assistant automates routine tasks and enhances professional workflows with AI-powered tools." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/1abfe4f0-dc4c-4121-8e93-17d597295c28/id-preview-253a7303--77b39081-cd00-4ca2-a4bb-908079b2343e.lovable.app-1781587173505.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/1abfe4f0-dc4c-4121-8e93-17d597295c28/id-preview-253a7303--77b39081-cd00-4ca2-a4bb-908079b2343e.lovable.app-1781587173505.png" },
+      { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:type", content: "website" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
